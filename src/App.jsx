@@ -4,6 +4,7 @@
       <h1>Welcome to My DAO</h1>
     </div>
     import { useAddress, useMetamask } from '@thirdweb-dev/react'; */
+      import { useAddress, useMetamask } from '@thirdweb-dev/react';
 
 const App = () => {
   // Use the hooks thirdweb give us.
@@ -22,7 +23,12 @@ const App = () => {
           Connect your wallet
         </button>
       </div>
-      import { useAddress, useMetamask } from '@thirdweb-dev/react';
+
+    return (
+    <div className="landing">
+      <h1>👀 wallet connected, now what!</h1>
+    </div>);
+}
 
     );
   }
