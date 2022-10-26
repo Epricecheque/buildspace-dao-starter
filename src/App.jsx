@@ -4,7 +4,6 @@
       <h1>Welcome to My DAO</h1>
     </div>
     import { useAddress, useMetamask } from '@thirdweb-dev/react'; */
-      import { useAddress, useMetamask } from '@thirdweb-dev/react';
 
 const App = () => {
   // Use the hooks thirdweb give us.
@@ -30,8 +29,7 @@ const App = () => {
     </div>);
 }
 
-    );
-  }
+ 
 
     
   );
